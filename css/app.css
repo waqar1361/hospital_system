@@ -1,0 +1,25 @@
+.dashboard-card {
+  background : rgba(65, 65, 65, 0.1);
+  color      : var(--primary);
+}
+
+.dashboard-card:hover {
+  background: rgba(65,65,65,0.3);
+}
+
+.dashboard-card .card-body {
+  padding-bottom : 0;
+}
+
+.dashboard-card .card-body .icon {
+  width     : 100%;
+  font-size : 2rem;
+}
+
+.dashboard-card a {
+  color : inherit;
+}
+
+.dashboard-card a:hover {
+  color : inherit;
+}
